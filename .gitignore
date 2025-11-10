@@ -1,0 +1,42 @@
+# --------------------------------------------------
+# Bỏ qua môi trường ảo Python
+.venv1/
+
+# Bỏ qua thư mục cấu hình IDE (PyCharm, VSCode)
+.idea/
+.vscode/
+
+# Bỏ qua thư mục cache của Python
+__pycache__/
+*.pyc
+
+# BỎ QUA CÁC TỆP MODEL RẤT NẶNG (PHẦN QUAN TRỌNG NHẤT)
+# --------------------------------------------------
+# Bỏ qua thư mục weights
+weights/
+
+# Bỏ qua các tệp .pt (PyTorch model)
+*.pt
+
+# Bỏ qua các tệp .pb (TensorFlow/Protocol Buffer model)
+*.pb
+
+# Bỏ qua các tệp .pkl (Pickle data/model)
+*.pkl
+# --------------------------------------------------
+
+# BỎ QUA THƯ MỤC ẢNH VÀ UPLOAD
+# --------------------------------------------------
+images/
+upload/
+Sample/
+
+# Bỏ qua các tệp dữ liệu như CSV (trừ khi bạn muốn theo dõi)
+# Nếu bạn muốn giữ lại tệp feedback.csv, hãy xóa dòng bên dưới
+*.csv
+
+# Bỏ qua các tệp log
+*.log
+
+# Bỏ qua các tệp môi trường (chứa API key, mật khẩu)
+.env
